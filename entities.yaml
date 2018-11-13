@@ -1,0 +1,171 @@
+---
+- - &1 !ruby/object:Author
+    name: Kristin Hannah
+    biography: ''
+  - &2 !ruby/object:Author
+    name: Tara Westover
+    biography: ''
+  - &3 !ruby/object:Author
+    name: Tayari Jones
+    biography: ''
+  - &4 !ruby/object:Author
+    name: Tomi Adeyemi
+    biography: ''
+  - &5 !ruby/object:Author
+    name: Chloe Benjamin
+    biography: ''
+  - &6 !ruby/object:Author
+    name: Heather Morris
+    biography: ''
+  - &7 !ruby/object:Author
+    name: Greer Hendricks
+    biography: ''
+  - &8 !ruby/object:Author
+    name: Holly Black
+    biography: ''
+  - &9 !ruby/object:Author
+    name: Jojo Moyes
+    biography: ''
+  - &10 !ruby/object:Author
+    name: Stephen King
+    biography: ''
+- - &17 !ruby/object:Book
+    title: The Great Alone
+    author: *1
+  - &18 !ruby/object:Book
+    title: Educated
+    author: *2
+  - &19 !ruby/object:Book
+    title: An American Marriage
+    author: *3
+  - &20 !ruby/object:Book
+    title: Children of Blood and Bone
+    author: *4
+  - &21 !ruby/object:Book
+    title: The Immortalists
+    author: *5
+  - &11 !ruby/object:Book
+    title: The Tattooist of Auschwitz
+    author: *6
+  - &22 !ruby/object:Book
+    title: The Wife Between Us
+    author: *7
+  - &23 !ruby/object:Book
+    title: The Cruel Prince
+    author: *8
+  - &24 !ruby/object:Book
+    title: Still Me
+    author: *9
+  - &25 !ruby/object:Book
+    title: The Outsider
+    author: *10
+- - &15 !ruby/object:Reader
+    name: Victor
+    email: victor@blabla.com
+    city: Dnipro
+    street: Yavornitskogo
+    house: 10
+  - &16 !ruby/object:Reader
+    name: Masha
+    email: masha@blabla.com
+    city: Kiev
+    street: Zavodskaya
+    house: 22
+  - &13 !ruby/object:Reader
+    name: Dima
+    email: dima@blabla.com
+    city: Moscow
+    street: Kukusheva
+    house: 84
+  - &14 !ruby/object:Reader
+    name: Kate
+    email: kate@blabla.com
+    city: Kharkow
+    street: Lebedeva
+    house: 71
+  - &12 !ruby/object:Reader
+    name: Danil
+    email: danil@blabla.com
+    city: Poltava
+    street: Medecinska
+    house: 57
+- - !ruby/object:Order
+    book: *11
+    reader: *12
+    date: 2018-11-13
+  - !ruby/object:Order
+    book: *11
+    reader: *13
+    date: 2018-11-13
+  - !ruby/object:Order
+    book: *11
+    reader: *14
+    date: 2018-11-13
+  - !ruby/object:Order
+    book: *11
+    reader: *15
+    date: 2018-11-13
+  - !ruby/object:Order
+    book: *11
+    reader: *16
+    date: 2018-11-13
+  - !ruby/object:Order
+    book: *11
+    reader: *15
+    date: 2018-11-13
+  - !ruby/object:Order
+    book: *11
+    reader: *16
+    date: 2018-11-13
+  - !ruby/object:Order
+    book: *11
+    reader: *16
+    date: 2018-11-13
+  - !ruby/object:Order
+    book: *17
+    reader: *12
+    date: 2018-11-13
+  - !ruby/object:Order
+    book: *18
+    reader: *12
+    date: 2018-11-13
+  - !ruby/object:Order
+    book: *19
+    reader: *12
+    date: 2018-11-13
+  - !ruby/object:Order
+    book: *20
+    reader: *12
+    date: 2018-11-13
+  - !ruby/object:Order
+    book: *21
+    reader: *12
+    date: 2018-11-13
+  - !ruby/object:Order
+    book: *22
+    reader: *12
+    date: 2018-11-13
+  - !ruby/object:Order
+    book: *23
+    reader: *12
+    date: 2018-11-13
+  - !ruby/object:Order
+    book: *24
+    reader: *12
+    date: 2018-11-13
+  - !ruby/object:Order
+    book: *25
+    reader: *12
+    date: 2018-11-13
+  - !ruby/object:Order
+    book: *18
+    reader: *13
+    date: 2018-11-13
+  - !ruby/object:Order
+    book: *18
+    reader: *16
+    date: 2018-11-13
+  - !ruby/object:Order
+    book: *19
+    reader: *14
+    date: 2018-11-13
